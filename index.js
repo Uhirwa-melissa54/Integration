@@ -29,6 +29,7 @@ app.post('/students', (req,res)=>{
   })
 })
 
+
 // DELETE a student by ID
 app.delete('/students/:id', (req, res) => {
   const id = parseInt(req.params.id);
